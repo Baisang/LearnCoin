@@ -1,3 +1,10 @@
+LearnCoin - an educational cryptocurrency based on SmallChange.
+In this version there are no direct changes to block targets, etc.
+Any changes are left up to the user. SmallChange information can be found below.
+
+==================================================================
+
+
 SmallChange (SMC) - a 'faster' version of Litecoin which also uses scrypt
 as a proof of work scheme and is intended for microtransactions.
  - 15 seconds block targets: beat that MinCoin! ;)
