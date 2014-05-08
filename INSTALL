@@ -1,0 +1,9 @@
+Building SmallChange
+
+See doc/readme-qt.rst for instructions on building smallchange-qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of SmallChange.
+
+See doc/build-*.txt for instructions on building smallchange,
+the intended-for-services, no-graphical-interface, reference
+implementation of SmallChange.
