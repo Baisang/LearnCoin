@@ -828,7 +828,7 @@ uint256 static GetOrphanRoot(const CBlock* pblock)
 
 int64 static GetBlockValue(int nHeight, int64 nFees)
 {
-    int64 nSubsidy = 4 * COIN;
+    int64 nSubsidy = 5 * COIN; //Amt of coins per block
 
 
 //    if(nHeight < 17280) // no block reward within the first 3 days
@@ -2030,7 +2030,7 @@ bool LoadBlockIndex(bool fAllowNew)
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1399574511;
+        block.nTime    = 1400539822;
         block.nBits    = 0x1e0ffff0;
         block.nNonce   = 2086299649;
 
@@ -2047,7 +2047,7 @@ bool LoadBlockIndex(bool fAllowNew)
         assert(block.hashMerkleRoot == uint256("0xef7e256a2cf2d38576225af2775a1e8160928a0c78526ab3615615d1ff16870e"));
 
         // If genesis block hash does not match, then generate new genesis hash.
-        if (false && block.GetHash() != hashGenesisBlock)
+        if (true && block.GetHash() != hashGenesisBlock)
         {
             printf("Searching for genesis block...\n");
             // This will figure out a valid hash and Nonce if you're
