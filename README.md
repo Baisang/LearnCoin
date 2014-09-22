@@ -1,6 +1,12 @@
 LearnCoin - an educational cryptocurrency based on SmallChange.
 In this version there are no direct changes to block targets, etc.
 Any changes are left up to the user. SmallChange information can be found below.
+I don't take any credit for the SMC source codes, barring the few changes I have made. 
+All credit goes to the creator of SMC and Litecoin.
+You can find a writeup of this project here:
+http://www.ocf.berkeley.edu/~baisang/LearnCoin.pdf
+which details the process of using this repository to create your own altcoin,
+or simply just understanding how cryptocurrencies work in general.
 
 ==================================================================
 
